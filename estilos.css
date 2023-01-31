@@ -1,0 +1,39 @@
+
+body {font-family: Itim;}
+h1 {text-align: center;
+    position: static;
+}
+
+h1:hover{cursor:pointer;}
+
+h5 {text-align: center;
+    position:static;}
+
+header {
+        background-color: black;
+        width:100%;
+        position:fixed;
+        z-index:75;
+       }
+nav {float: center;
+    }
+
+nav ul {list-style: none;}
+
+nav ul li{float: left;
+        width: 25%;
+        text-align: center;
+         }
+a:hover{background-color:red;
+        cursor:pointer;
+       }
+
+a {color: aliceblue;
+  }
+
+main {float:center;
+      text-align: center;}
+
+img { position: static;
+  width: 5%;
+height: 5%;}
