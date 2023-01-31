@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="shortcut icon" href="imagenes/Pedro Bengoechea.ico">
+    <title>Este es el Curriulum Vitae de Pedro Bengoechea</title>
+    <meta property="og:title" content="Pedro Bengoechea curriculum vitae" />
+    <meta property="og:type" content="curriculum vitae" />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <script src="js/function.js"></script>
+    <h1 onClick=mostrar("bienvenida")>Pedro Bengoechea</h1>
+    <h5>Curriculum Vitae</h5>
+    <!--menu-->
+    <header>
+    <nav>
+        <ul><li><a onclick=mostrar("datosPersonalesTexto") id="datosPersonales">DATOS PERSONALES</a></li>
+            <li><a onclick=mostrar("trabajosTexto") id="trabajos">TRABAJOS</a></li>
+            <li><a onclick=mostrar("estudiosTexto") id="estudios">ESTUDIOS</a></li>
+            <li><a onclick=mostrar("contactoTexto") id="contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+<script>console.log("Gracias por visitar mi CV");
+</script>
+    <main><br>
+        <div id="bienvenida">
+            <br><br>
+            Gracias Por Visitar mi CV!!!<br>
+            Soy una persona responsable, dinamica, que hace frente a los desafíos.<br>
+            Interesado en las nuevas tecnologias, que desea aprender de y con ellas.<br>
+            Capaz de trabajar en grupo y de forma individual.<br>
+            Tengo conocimientos en desarrollo Front-End. HTML, Javascript, Css. <br>
+            Si contratan mis servicios no los voy a defraudar<br>
+
+        </div>
+        <div id="datosPersonalesTexto"  hidden><br><br>
+            <img src="imagenes/foto.jpg" alt="foto selfie de Pedro Bengoechea"><br>
+            
+                Pedro Bengoechea.<br>
+                Casado. 2 hijos.<br>
+                Mi domicilio es diag 80. 776 La Plata.<br>
+                Mi tel es 221 567 176<br>
+                e mail: pBengoechea@yahoo.com<br>
+  
+        </div>
+
+        <div id="trabajosTexto" hidden><br><br>
+            Trabaje en Google 5 años <br>
+            DE forma independiente desde hace 15 años<br>
+        </div>
+
+        <div id="estudiosTexto" hidden><br><br>
+            Primaria y secundaria completos<br>
+            Graduado Analista de programacion UNlP<br>
+            Curso Front-End Academy Argentina Programa v4.0<br>
+
+        </div>
+
+        <div id="contactoTexto" hidden><br><br>
+            pBengoechea@yahoo.com
+        </div>
+
+    </main>
+   
+</body>
+</html>
